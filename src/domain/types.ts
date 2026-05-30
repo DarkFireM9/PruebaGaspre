@@ -37,3 +37,7 @@ export interface AnalysisReport {
   maxDepth: number;
   anomalies: Anomaly[];
 }
+
+export interface MoveResult {
+  tree: Category;
+}
