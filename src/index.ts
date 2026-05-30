@@ -1,5 +1,5 @@
 import { Category } from "./domain/types";
-import { getActiveLeafPaths } from "./services/getActiveLeafPaths";
+import { findCategoryById } from "./services/findCategoryByID";
 
 const structure: Category = {
   id: 1,
@@ -40,4 +40,4 @@ const structure: Category = {
   ]
 };
 
-console.log(getActiveLeafPaths(structure));
+console.log(findCategoryById(structure, 5));
