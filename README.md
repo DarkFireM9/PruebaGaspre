@@ -25,9 +25,11 @@ npm run test:coverage
 
 ## Fases completadas
 
-| Fase | Operación            | Descripción                                       |
-| ---- | -------------------- | ------------------------------------------------- |
-| 1    | `getActiveLeafPaths` | Rutas de hojas activas, ordenadas alfabéticamente |
+| Fase | Operación            | Descripción                                             |
+| ---- | -------------------- | ------------------------------------------------------- |
+| 1    | `getActiveLeafPaths` | Rutas de hojas activas, ordenadas alfabéticamente       |
+| 2    | `findCategoryById`   | Búsqueda por id con path, profundidad, parentId, isLeaf |
+| 3    | `analyzeStructure`   | Análisis completo con detección de anomalías            |
 
 ## Estructura del proyecto
 
