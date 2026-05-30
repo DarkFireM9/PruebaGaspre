@@ -25,6 +25,10 @@ npm run test:coverage
 
 ## Fases completadas
 
+| Fase | Operación            | Descripción                                       |
+| ---- | -------------------- | ------------------------------------------------- |
+| 1    | `getActiveLeafPaths` | Rutas de hojas activas, ordenadas alfabéticamente |
+
 ## Estructura del proyecto
 
 ```
